@@ -169,6 +169,15 @@ h2{
     display: flow-root;
     text-align: center;
 }
+.MainSwingText1,.MainSwingText2{
+ padding:64px;
+}
+
+.MainFooter-css{
+  background-color: black;
+  color: #ffff;
+  padding:16px;
+}
 @media only screen and (max-width:600px){
   .app-css,.app-css1,.app-css2{
     width: 100%;
@@ -194,5 +203,14 @@ h2{
    .WorkImg3{
      display: none;
    }
-  
+ .MainWork-css{
+   margin-top:81%;
+ } 
+ .MainSwing-css{
+  width: 100%;
+  margin-top: 90em;
+ }
+ .MainSwingText2{
+  margin-bottom: 20%;
+}
 }
