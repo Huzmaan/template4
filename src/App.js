@@ -21,9 +21,11 @@ function App() {
     </div>
     <div className="app-css2">
       <Swing></Swing>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </div>
-    {/* <Footer></Footer> */}
+    <div>
+    <Footer></Footer>
+    </div>
     </>
   );
 }

@@ -8,7 +8,7 @@
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  height: 700px;
+  height: 800px;
 }
 .Main-css{
   background-color: black;
@@ -75,7 +75,7 @@
 }
 .MainAbout-css{
   background-color:#607d8b!important;
-  width: 50%;
+  width: 50.5%;
   display: grid;
 }
 .About-css{
@@ -141,7 +141,7 @@ h2{
 }
 .MainResume-css{
   background-color:#3f51b5!important;
-  width: 50%;
+  width: 50.5%;
   padding: 5% 0% 10% 0%
 }
 .MainResumeTable{
@@ -164,7 +164,7 @@ h2{
 }
 .MainSwing-css{
   background-color: #616161!important;
-    width: 50.5%;
+    width: 50.8%;
     color: #ffff;
     display: flow-root;
     text-align: center;
@@ -172,17 +172,68 @@ h2{
 .MainSwingText1,.MainSwingText2{
  padding:64px;
 }
-
+.MainContact-css{
+  background-color:#009688!important;
+  width:50.5%;
+  
+}
+.MainContact{
+  padding:16px
+}
+.Contact-css{
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.Contact-title{
+  color:#ffff;
+  font-weight: 400;
+}
+.Contact-description{
+  opacity: 0.60;
+  color:#ffff;
+}
+.form-css{
+  background-color: #ffff;
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+.Name-css,.Email-css,.Message-css{
+  margin-top: 16px;
+    margin-bottom: 16px;
+    padding:16px;
+}
+.inp-css{
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px gray solid;
+  width:92%
+}
+.submit{
+  float:right;
+  background-color:#009688!important;
+  color:white;
+  padding: 10px 30px;
+    margin-top: 2%;
+    margin-right: 5%;  
+}
 .MainFooter-css{
   background-color: black;
   color: #ffff;
   padding:16px;
+  max-width:1300px
 }
 @media only screen and (max-width:600px){
-  .app-css,.app-css1,.app-css2{
+  .app-css,.app-css1{
     width: 100%;
     display: flex;
     flex-direction: column; 
+    margin-bottom: 63%;
+   }
+   .app-css2{
+
    }
    .Main-css,.MainAbout-css,.MainWork-css,.MainResume-css{
      width: 100%;
@@ -203,14 +254,13 @@ h2{
    .WorkImg3{
      display: none;
    }
- .MainWork-css{
-   margin-top:81%;
- } 
+ /* .MainWork-css{
+   /* margin-top:81%; */
+ /* }
  .MainSwing-css{
   width: 100%;
-  margin-top: 90em;
- }
+  /* padding-top: 84em; */
+ } */
  .MainSwingText2{
   margin-bottom: 20%;
-}
 }
