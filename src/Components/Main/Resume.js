@@ -8,34 +8,41 @@ const Resume = () => {
             <h5>A draft from my CV</h5>
             </div>
             <div id="MainResume-id" className="MainResumeTable">
-                <td className="tableheading">
+                <tr className="tableheading">
                     <th>Year</th>
-                    <tr>2012-2016</tr>
-                     <tr>2009-2012</tr>
-                     <tr>2008-2009</tr>
-                     <tr>2005-2008</tr>
-                     <tr>2002-2005</tr>
-                     <tr>2002-2005</tr>
-                    </td>
-                    <td className="tableheading"> 
                     <th>Title</th>
-                    <tr>The rest is history..</tr>
-                     <tr>Started my own company</tr>
-                     <tr>Started working for Lorem</tr>
-                     <tr>Degree in Bachelor of Design</tr>
-                     <tr>Degree in Bachelor of Business</tr>
-                     <tr>Degree in Bachelor of Business</tr>
-</td>
-<td className="tableheading">
-
                     <th>Where</th>
-                    <tr>Lorem ipsum</tr>
-                     <tr>My Garage</tr>
-                     <tr>London, UK</tr>
-                     <tr>Harvard, USA</tr>
-                     <tr>RMIT University, Melbourne, Australia</tr>
-                     <tr>RMIT University, Melbourne, Australia</tr>
-                </td>
+                </tr>
+                <tr className="table1">
+                  <td>2012-2016</td>
+                  <td>The rest is history..</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr className="table2">
+                    <td>2009-2012</td>
+                    <td>Started my own company</td>
+                    <td>My Garage</td>
+                </tr>
+                <tr className="table3">
+                <td>2008-2009</td>
+                <td>Started working for Lorem</td>
+                <td>London, UK</td>
+                </tr>
+                <tr className="table4">
+                    <td>2005-2008</td>
+                    <td>Degree in Bachelor of Design</td>
+                    <td>Harvard, USA</td>
+                </tr>
+                <tr className="table5">
+                    <td>2002-2005</td>
+                    <td>Degree in Bachelor of Business</td>
+                    <td>RMIT University, Melbourne, Australia</td>
+                </tr>
+                <tr className="table6">
+                    <td>2002-2005</td>
+                    <td>Degree in Bachelor of Business</td>
+                    <td>RMIT University, Melbourne, Australia</td>
+                </tr>
                 </div>
             </div>
         

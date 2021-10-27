@@ -8,7 +8,7 @@ const Logo = () => {
             <p id="Home" className="Home">Home</p>
             <p id="MyWork" className="My Work">My Work</p>
             <p id="Resume" className="Resume">Resume</p>
-            <p id="Contact" className="Contact">Contact</p>
+            <p  id="Contact" className="Contact">Contact</p>
             </div>
         </div>
     )
