@@ -201,7 +201,7 @@ h2 {
   background-color: #ffff;
   color: black;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 38px;
   width: 100%;
 }
 .Name-css,
@@ -209,10 +209,10 @@ h2 {
 .Message-css {
   margin-top: 16px;
   margin-bottom: 16px;
-  padding: 16px;
+  padding:0 16px;
 }
 .inp-css {
-  padding: 8px;
+  padding: 12px;
   display: block;
   border: none;
   border-bottom: 1px gray solid;
