@@ -5,7 +5,7 @@ import sound from '../../Images/sound.jpg';
 
 const Work = () => {
     return (
-        <div className="MainWork-css">
+        <div className="MainWork-css" id="mywork" >
             <div className="MainWork">
             <h2>My Work</h2>
             <h4>Some of my latest projects.</h4>

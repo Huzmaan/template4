@@ -5,10 +5,10 @@ const Logo = () => {
         <div className="Main-css">
             <h1 className="logo-css">My Logo</h1>
             <div className="text-main">
-            <p id="Home" className="Home">Home</p>
-            <p id="MyWork" className="MyWork">My Work</p>
-            <p id="Resume" className="Resume">Resume</p>
-            <p  id="Contact" className="Contact">Contact</p>
+            <a href="#" className="Home">Home</a>
+            <a href="#mywork" className="MyWork">My Work</a>
+            <a href="#resume" className="Resume">Resume</a>
+            <a href="#contact" className="Contact">Contact</a>
             </div>
         </div>
     )
